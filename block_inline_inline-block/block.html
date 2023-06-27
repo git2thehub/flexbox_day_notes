@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Block layout</title>
+  <style>
+    .block-element {
+      display: block;
+      width: 200px;
+      height: 100px;
+      background-color: red;
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Some common block-level elements are <div>, <p>, <h1> to <h6>, and <section></section> -->
+  <p>
+    Block: Elements with display: block take up the full width available and create a new line before and after
+    themselves. They stack vertically, pushing other elements below them.
+  </p>
+  <!-- In this example, the two
+  <div> elements are displayed as block-level elements and are stacked vertically with a margin of 10 pixels between
+    them. -->
+  <div class="block-element"></div>
+  <div class="block-element"></div>
+</body>
+
+</html>

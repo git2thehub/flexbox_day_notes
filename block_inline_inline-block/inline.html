@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Inline layout</title>
+  <style>
+    .inline-element {
+      display: inline;
+      padding: 5px;
+      background-color: blue;
+      color: white;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Typical inline-level elements include <span>, <a>, <strong>, and <em>. -->
+  <p>
+    Inline: Elements with display: inline occupy only the necessary space for their content and do not create new lines.
+    They are placed next to each other as much as possible.
+  </p>
+  <!-- In this case, the two <span> elements are displayed as inline elements and appear next to each other within the <p> paragraph. -->
+  <p>
+    This is an <span class="inline-element">inline</span> element.
+    This is another <span class="inline-element">inline</span> element.
+  </p>
+
+</body>
+
+</html>
